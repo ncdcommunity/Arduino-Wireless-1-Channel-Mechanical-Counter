@@ -9,7 +9,7 @@ void setup()
 {
   Serial1.begin(9600);
   Serial.begin(9600);
-  Serial.println("ncd.io IoT Arduino Wireless Push Notification Dry Contact Transmitter");
+  Serial.println("ncd.io IoT Arduino Wireless One Channel Counter Transmitter");
 }
 
 void loop()
