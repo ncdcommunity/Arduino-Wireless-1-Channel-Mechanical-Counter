@@ -29,7 +29,7 @@ void loop()
       }
     if(data[15]==0x7F)  /////// to check if the recive data is correct
       {
-  if(data[22]==0x24)  //////// make sure the sensor type is correct
+  if(data[22]==0x23)  //////// make sure the sensor type is correct
         {  
           long int count_1 = ((data[24]<<24) + (data[25]<<16) + (data[26]<<8) + (data[27])) ;
    float battery = ((data[18] * 256) + data[19]);
